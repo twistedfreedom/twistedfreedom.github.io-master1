@@ -1,0 +1,317 @@
+/* Set Your Own Margin & Padding */
+:root{
+	
+	background: url("../img/subtle.png");
+	margin:2em;
+}
+/* links and styling for elements*/
+a{
+	font-family: 'Roboto', sans-serif;;
+	text-decoration: none;
+}
+
+a:active{
+	background: #0267A7;
+}
+a:hover{
+	background: #00C3D9;
+
+}
+a:visited{
+	background: #042658;
+}
+
+body{
+	width:90%;
+	
+}
+
+/*Text styling*/ 
+em + p{
+	font-family: 'Roboto', sans-serif;
+	color:#042658;
+	text-indent: 2em;
+}
+
+em{
+	font-size: 1.3em; 
+	font-style: bold;
+	text-align: left;
+
+}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 4em;
+	border-bottom: 2px solid #042658;
+	color:#042658;
+	width:80%;
+
+}
+
+h2{
+	font-family: 'Lato', sans-serif;
+	font-style: none;
+	font-size: 2.5em;
+	text-indent: .5em;
+
+	color:#042658;
+}	
+
+h3 p+em{
+	font-family: 'Roboto', sans-serif;
+	color:#042658;
+
+}
+
+
+h3{
+	font-family: 'Roboto', sans-serif;
+	color:#0267A7;
+	font-size: 1.5em;
+}
+
+footer{
+	position:left;
+	float:left;
+	margin:2em;
+}
+
+img{
+	float:right;
+	margin-right: 2em; 
+	z-index: 1; 
+}
+
+img:hover{
+	
+transform:rotate(29deg);
+-ms-transform:rotate(29deg); /* IE 9 */
+-webkit-transform:rotate(29deg); /* Opera, Chrome, and Safari */
+transition-timing-function: ease-in; 
+}
+
+section{
+	display: inline-block;
+	
+}
+
+		
+
+
+
+
+/* */
+
+
+/* Layout for Style Tile for classes*/
+
+.color{
+	
+	
+	text-align: center;
+	font-size: 1em; 
+	color:white;
+	float:left;
+	padding:2em;
+}
+
+
+.color-1{
+	background: #0E147F;
+	
+}
+
+.color-2{
+	background: #042658;
+}
+
+.color-3{
+	background: #0267A7;
+}
+.color-4{
+	background: #03B0DB; 
+	
+}
+.color-5{
+	background: #00C3D9;
+	
+}
+
+.color-1,
+.color-2,
+.color-3,
+.color-4,
+.color-5,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: .2em solid #000;
+	float: left;
+	margin: .75em;
+	height: 9em;
+	width: 9em;
+	border-radius:  5em;
+  	margin-top:0;
+  	transition:all 2s;
+ 	-webkit-transition: 2s,
+	
+}
+
+
+
+
+.color-1:hover{
+
+  margin-top:100px;
+}
+
+.color-2:hover{
+
+  margin-top:100px;
+}
+
+.color-3:hover{
+
+  margin-top:100px;
+}
+
+.color-4:hover{
+
+  margin-top:100px;
+}
+
+.color-5:hover{
+
+  margin-top:100px;
+}
+
+.pattern-1:hover{
+
+  margin-top:100px;
+}
+
+.pattern-2:hover{
+
+  margin-top:100px;
+}
+
+.pattern-3:hover{
+
+  margin-top:100px;
+}
+
+.logo{
+	width:100%;
+}
+
+/* backgrounds*/
+
+.pattern-1{
+	background: url("../img/brushed.png");
+}
+
+.pattern-2{	
+	background: url("../img/subtle.png") ;
+}
+
+.pattern-3{
+	background: url("../img/thread.png");
+
+}
+
+.pattern-1{
+	background: url("../img/brushed.png");
+}
+
+.pattern-2{	
+	background: url("../img/subtle.png") ;
+}
+
+.pattern-3{
+	background: url("../img/thread.png");
+
+}
+
+/*class styling*/
+.patterns{
+	float:left;
+	text-align: center;
+	width:80%;
+
+}
+.pattern-1, .pattern-2{
+	color:black;
+}
+
+.pattern-3{
+	color:white;
+}
+
+.palatte{
+	margin-left:2em;
+	float:left;
+}
+
+.text{
+	color:black;
+	font-family: 'Roboto', sans-serif;
+	display:inline-block;
+	width:80%;
+
+}
+
+
+.texture{
+	float:left;
+	color:black;
+	background-color: red;
+}
+
+.top{
+	
+}
+
+
+.tp{
+
+	float:left;
+	text-align: left;
+	position:;
+	padding:2em;
+}
+
+
+/* media querry*/
+@media screen and (max-width: 900px){
+
+
+	section{
+		width:100%;
+	}
+
+}
+
+@media screen and(max-width: 600px){
+
+	
+ section{
+		width:100%;
+	}
+
+}
+
+@media screen and(max-width: 320px){
+
+	section{
+		width:100%;
+	}
+	
+	
+
+}
+
+
+
+
+

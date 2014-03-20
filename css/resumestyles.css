@@ -1,0 +1,103 @@
+body{
+	background:url("../img/subtle.png");
+	font-family: 'Prata', serif;
+	width:80%;
+}
+
+
+
+a{
+	text-align: left;
+	font-size: 1em;
+	text-decoration: none;
+}
+a:hover,a:active{
+	background: #fff;
+
+}
+a:visited{
+	color:white;
+}
+
+div{
+	list-style-type:none;
+	
+}
+
+
+h1{	
+	font-family: 'Prata', serif;
+	font-size: 2em;
+	border-bottom: 2px solid #042658;
+	color:#042658;
+	width:80%;
+	text-align: left;
+	margin-left: 1em;
+}
+
+h2{
+	color:#042658;
+	width:80%;
+	text-align: left;
+	margin-left: 1.5em;
+
+
+}
+
+h3{
+	color:#042658;
+	width:80%;
+	text-align: left;
+	margin-left: 1em;
+	border-bottom: 2px solid #042658;
+}
+.info{
+	float:left;
+	width:80%;
+	list-style-type: none;
+	
+}
+li{
+	list-style-type: none;
+	margin:.5em;
+	float: left;
+	width:80%;
+}
+
+nav ul li{
+	display:inline-block;
+}
+
+p{
+	color:#042658;
+	width:80%;
+	text-align: left;
+	font-weight: bold;
+	margin-left: 1em;
+	border-bottom: 2px solid #042658;
+}
+
+
+
+}
+ul:last-child{
+	border-bottom: 2px solid #042658;
+
+}
+
+.padding{
+	padding-left: 2em;
+}
+
+@media screen and(max-width: 500px){
+	
+	body{
+		width:100%;
+	}
+
+	@media screen and(min-width: 850px){
+	
+	body{
+		width:100%;
+	}
+

@@ -67,7 +67,7 @@ img{
 }
 
 .gallery .item {
-  height: 38.5em;
+  height: ;
   width:100%;
   overflow:;
   text-align: center;
@@ -91,7 +91,7 @@ img{
 
 .gallery .control-button {
   display: inline-block;
-  margin: em;
+  margin: .3em;
   font-size: 3em;
   text-align: center;
   text-decoration: none;
@@ -206,11 +206,11 @@ img{
 
 }
 
-  .gallery, .item{
- 
-    
-
+ .item{
+    height:10em;
   }
+
+
   .controls,
 .container, img{
     width:100%;
@@ -218,7 +218,7 @@ img{
 
 }
 
-@media screen and(max-width: 320px){
+@media screen and(max-width: 480px){
 
 .poster{
   width:22%;
