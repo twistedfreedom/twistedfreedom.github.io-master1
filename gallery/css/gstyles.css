@@ -1,0 +1,244 @@
+/* Your Website Styles */
+body{
+  background: url("../img/subtle.png");
+  width:100%;
+}
+
+p{
+  font-family: 'Gruppo', cursive;
+  font-size: 1.5em;
+  border-bottom: 2px solid #042658;
+  color:#042658;
+  margin-top:0em;
+  width: 100%;
+  text-align: center;
+}
+
+img{
+  margin:0 auto;
+ 
+}
+
+
+
+ h1 a{
+   font-family: 'Lato', sans-serif;
+  font-size: 2em;
+  border-bottom: 2px solid #042658;
+  color:#042658;
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  padding:1em;
+}
+
+.poster{
+  width:22%;
+  
+}
+
+  
+
+
+
+
+
+/* Gallery Stying */
+.gallery, .control-button {
+  color: #ccc;
+  color: rgba(255, 255, 255, 0.4);
+
+}
+
+.gallery, .control-button:hover {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+
+}
+
+/*
+	Theme controls how everything looks in Gallery CSS.
+*/
+.gallery {
+  position: relative;
+}
+.item{
+  padding:1em;
+}
+
+.gallery .item {
+  height: 38.5em;
+  width:100%;
+  overflow:;
+  text-align: center;
+  background: url("../img/brushed.png");
+  border-bottom:3px solid #042658;
+  
+}
+.gallery .controls {
+  background: url("../img/subtle.png");
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.gallery .controls img{
+  border:3px solid black;
+  border-radius:50%;
+  height: 2.0em;
+  width: 2.0em;
+}
+
+.gallery .control-button {
+  display: inline-block;
+  margin: em;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+
+  transition: color: .1s;
+}
+
+@keyframes controlAnimation-5 {
+  0% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  5.7%,
+  20% {
+    color: white;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  25.7%,
+  100% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+@keyframes galleryAnimation-5 {
+  0% {
+    opacity: 0;
+  }
+
+  5.7%,
+  20% {
+    opacity: 1;
+  }
+
+  25.7%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.items-5.autoplay .control-button {
+  animation: controlAnimation-5 35s infinite;
+}
+.items-5.autoplay .item {
+  animation: galleryAnimation-5 35s infinite;
+}
+.items-5 .control-operator:nth-of-type(1):target ~ .item:nth-of-type(1) {
+  pointer-events: auto;
+  opacity: 1;
+}
+.items-5 .control-button:nth-of-type(1),
+.items-5 .item:nth-of-type(1) {
+  animation-delay: -2s;
+}
+.items-5 .control-operator:nth-of-type(2):target ~ .item:nth-of-type(2) {
+  pointer-events: auto;
+  opacity: 1;
+}
+.items-5 .control-button:nth-of-type(2),
+.items-5 .item:nth-of-type(2) {
+  animation-delay: 5s;
+}
+.items-5 .control-operator:nth-of-type(3):target ~ .item:nth-of-type(3) {
+  pointer-events: auto;
+  opacity: 1;
+}
+.items-5 .control-button:nth-of-type(3),
+.items-5 .item:nth-of-type(3) {
+  animation-delay: 12s;
+}
+.items-5 .control-operator:nth-of-type(4):target ~ .item:nth-of-type(4) {
+  pointer-events: auto;
+  opacity: 1;
+}
+.items-5 .control-button:nth-of-type(4),
+.items-5 .item:nth-of-type(4) {
+  animation-delay: 19s;
+}
+.items-5 .control-operator:nth-of-type(5):target ~ .item:nth-of-type(5) {
+  pointer-events: auto;
+  opacity: 1;
+}
+.items-5 .control-button:nth-of-type(5),
+.items-5 .item:nth-of-type(5) {
+  animation-delay: 26s;
+}
+/* querry */
+@media screen and (max-width: 900px){
+
+.poster{
+  width:22%;
+  
+}
+
+.gallery, .item{
+  height:38.5em
+
+}
+  .container, img{
+    width:100%;
+  }
+
+}
+
+@media screen and(max-width: 600px){
+
+.poster{
+  width:22%;
+  overflow: hidden;
+
+}
+
+  .gallery, .item{
+ 
+    
+
+  }
+  .controls,
+.container, img{
+    width:100%;
+  }
+
+}
+
+@media screen and(max-width: 320px){
+
+.poster{
+  width:22%;
+  
+}
+.controls,
+.gallery, .item{
+  
+
+}
+
+.container, img{
+    width:100%;
+  }
+  
+  
+
+}
+
+/* Sources 
+https://github.com/vcd/p4-image-gallery
+http://benschwarz.github.io/gallery-css/#item-3*/ 
+
